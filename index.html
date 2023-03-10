@@ -124,7 +124,7 @@
             $("#dob").focusout(function () {
                 var date = new Date($(this).val());
                 year = date.getFullYear();
-                age = 2020 - year;
+                age = 2023 - year;
                 if (age > 2 && age < 17) {
                     $("#date_err").hide();
                     $("#age").val(age);
